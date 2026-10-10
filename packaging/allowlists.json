@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "candidate": "1.6.9",
+  "base_revision": "58519603c7b152d4940a35798c4c614a831ea2b0",
+  "compatibility": {
+    "runtime": "Hermes 1.6.9; native 1.6.8 schema-2 compatible",
+    "transport": "antenna-plugin-v2",
+    "limits": "antenna-limits-2",
+    "release_version": "1.6.9"
+  },
+  "artifacts": {
+    "diagnostics-hermes": [
+      "LICENSE",
+      "README.md",
+      "SOURCE.json",
+      "diagnostics/README.md",
+      "diagnostics/cli.mjs",
+      "hermes/adapter.mjs",
+      "hermes/host-config.py",
+      "hermes/smart.mjs",
+      "packaging/README.md",
+      "plugin/CORPORA.md",
+      "plugin/capacity.mjs",
+      "plugin/corpus/controls.json",
+      "plugin/dumb-worker.mjs",
+      "plugin/evaluation.mjs",
+      "plugin/host-config.mjs",
+      "plugin/inbox.mjs",
+      "plugin/limits.mjs",
+      "plugin/operator-auth.mjs",
+      "plugin/policy.mjs",
+      "plugin/rules/default.json",
+      "plugin/ruleset.mjs",
+      "plugin/scanners.mjs",
+      "plugin/smart.mjs"
+    ]
+  }
+}

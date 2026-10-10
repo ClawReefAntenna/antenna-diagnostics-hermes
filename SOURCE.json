@@ -1,0 +1,73 @@
+{
+  "schema": 2,
+  "application": "antenna-diagnostics-hermes",
+  "origin": {
+    "repository": "https://github.com/ClawReefAntenna/antenna-hermes",
+    "baseRevision": "58519603c7b152d4940a35798c4c614a831ea2b0",
+    "candidate": "1.6.9",
+    "matchingCoreRevision": "004af02c7ecc6731525d0cc9a0569601fe2c604b"
+  },
+  "note": "Shared files pinned to the matching Hermes three-app candidate. No build-time upstream checkout required.",
+  "sharedFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "d3919a2a59a79fcf126f18235403bee19c1e0ca47b789b2a41abcc515f0863c4"
+    },
+    {
+      "path": "plugin/policy.mjs",
+      "sha256": "8b65028935de465b4e3ad1ef1e69b551210594ab4685cb306bc256512764f4ab"
+    },
+    {
+      "path": "plugin/inbox.mjs",
+      "sha256": "5ff324b2ec73b0a580ac50c849b20679edae3ad486c5b83d2d17ddf15cec60f1"
+    },
+    {
+      "path": "plugin/capacity.mjs",
+      "sha256": "ad580501975fedbe4d283ef8eb203a74c92a74457cc8b6f353cc95364f531aea"
+    },
+    {
+      "path": "plugin/limits.mjs",
+      "sha256": "844a301ca8826ef19385ce1b3ee8dc176a21928a702eaa35eff91a44f591e99a"
+    },
+    {
+      "path": "plugin/dumb-worker.mjs",
+      "sha256": "e280724cd0e724d1eb2a8a7004877f015c5f23efb98217f0a5494cd6f4ec7e32"
+    },
+    {
+      "path": "plugin/scanners.mjs",
+      "sha256": "10a17befe2452128fc94856a991ecef61a71b54180174d0bda42df55b46d3498"
+    },
+    {
+      "path": "plugin/smart.mjs",
+      "sha256": "ad5172ac74d52372dcfa7a4db9fe9121dc18c61b4ec6ba49a2ec60459accaf2d"
+    },
+    {
+      "path": "plugin/operator-auth.mjs",
+      "sha256": "ce3f4d14b12e7a09b49452ea921ab7c3cef0b5a797ad93dfd45732f21352dc37"
+    },
+    {
+      "path": "plugin/ruleset.mjs",
+      "sha256": "117e3dfecc7c7cab11d56030c9b052e9c077dbebec3d8873523993895ebf2e2d"
+    },
+    {
+      "path": "plugin/rules/default.json",
+      "sha256": "6b939c8d60043644479a6b4f3ecc8e08f06a770ba5be521b601e2b353e49d8dd"
+    },
+    {
+      "path": "plugin/host-config.mjs",
+      "sha256": "05cdfd83332973998800b690289dd00c0071d441cf00bc2bf8a5b82049024b5d"
+    },
+    {
+      "path": "hermes/host-config.py",
+      "sha256": "180272a0cee568aea513a8ab947f9cf37468659e4f6a7c59521cf00cced5ab9e"
+    },
+    {
+      "path": "hermes/smart.mjs",
+      "sha256": "b5a5649ba144bcaa6a33c3a49276a29ab54e971bf231e1eae1fe4597ad55d39f"
+    },
+    {
+      "path": "hermes/adapter.mjs",
+      "sha256": "66d7c118142dd897b24c141256767242569d720d0f716feea1c0362480603149"
+    }
+  ]
+}
