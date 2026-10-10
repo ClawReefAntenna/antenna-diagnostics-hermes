@@ -13,3 +13,6 @@ Build from a clean committed checkout. The builder refuses changed shared pins,
 creates a deterministic `antenna-diagnostics-hermes-1.6.9.tgz` and per-file manifest, and
 never installs, uploads or edits a running profile. Keep the extracted app in its
 own directory. Tests and build machinery are source-only, not runtime content.
+
+Release `.git.bundle` files contain developer source, including tests and build
+tools. The `.tgz` archive contains only the allowlisted runtime payload.
